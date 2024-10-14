@@ -1,0 +1,26 @@
+/* Write your code here. */
+.container {
+  background: linear-gradient(to right, #b21f1f, #fdbb2d);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+}
+.images {
+  height: 200px;
+  width: 200px;
+}
